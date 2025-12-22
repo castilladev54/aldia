@@ -68,6 +68,7 @@ menuBtn.addEventListener("click", () => {
 
 /**FORMULARIO */
 
+
 let productos = JSON.parse(localStorage.getItem("productos")) || []; 
 let tasaCambiaria = parseFloat(localStorage.getItem("tasaCambiaria")) || 231.67;
 let modoEdicion = false;
